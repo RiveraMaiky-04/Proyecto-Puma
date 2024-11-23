@@ -9,10 +9,11 @@
 </head>
 <body style="background-color: black;">
 <!-- Barra de navegacion -->
+<div class="header">
 <nav class="navbar navbar-expand-lg" style="margin-left: 13%; margin-right: 20%;">
 <div class="container-fluid">
     <a class="navbar-brand" href="#">
-    <img src="https://seeklogo.com/images/P/Puma-logo-C1C1A4A6DF-seeklogo.com.png" alt="" height="80px">
+    <img src="data:image/png;base64,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" alt="" height="80px">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -36,6 +37,7 @@
     </div>
 </div>
 </nav>
+</div>
 <!-- Sliders -->
 <div class="container">
 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
